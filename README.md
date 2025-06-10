@@ -1,3 +1,3 @@
 <h1 align="center" style="font-family:'tahoma';" >
-🌐 اتصال به درگاه بانک سامان
+🌐 Connerct to Saman(sep) bank gateway
 </h1>
