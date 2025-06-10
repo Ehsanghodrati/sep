@@ -2,11 +2,11 @@
  // connect to sep and create token
 $requestPayload = [
     'action'      => 'token',
-    'TerminalId'  => "TerminalId", // TerminalId
-    'RedirectUrl' => 'URL', // callback url
-    'Amount'      => AMOUNT, // amount pay
-    'ResNum'      => HASH, // hash code for gate
-    'CellNumber'  => PHONE, // customer phone
+    'TerminalId'  => $merchant_id, // TerminalId
+    'RedirectUrl' => $RedirectUrl, // callback url
+    'Amount'      => $Amount, // amount pay
+    'ResNum'      => $Hashcode, // hash code for gate
+    'CellNumber'  => $CellNumber, // customer phone
 ];
 
 $jsonData = json_encode($requestPayload);
