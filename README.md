@@ -18,7 +18,7 @@ To install, simply place the project files in your desired path.🌻
 
 ```php
 $merchant_id == 'کد پذیرنده';
-$RedirectUrl == 'آدرس بازگشت;
+$RedirectUrl == 'آدرس بازگشت';
 $Amount      == 'مبلغ تراکنش';
 $Hashcode    == 'شماره یونیک تراکنش';
 $CellNumber == 'شماره تلفن مشتری';
